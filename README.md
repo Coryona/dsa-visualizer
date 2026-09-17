@@ -26,7 +26,6 @@ Your BST:
 ```
 include/   header files (bst.h, stack.h, queue.h)
 src/       implementations and main menu
-web/       browser visualization (in progress)
 ```
 
 ## What I Learned
@@ -40,7 +39,6 @@ web/       browser visualization (in progress)
 
 ## Next Steps
 - BST delete and search
-- Browser-based visualization
 
 ## Author
 Coryona Greer, Computer Science @ Jackson State University
