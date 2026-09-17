@@ -30,9 +30,13 @@ web/       browser visualization (in progress)
 ```
 
 ## What I Learned
-- How pointers link nodes together in trees and lists
-- Why pop and dequeue save a temp pointer before deleting (avoids memory leaks)
-- Why inorder traversal of a BST always prints sorted output
+- How nodes connect with pointers. A BST node points left and right, while stack and queue nodes only point to the next one.
+- Stack is LIFO (last in, first out) and Queue is FIFO (first in, first out). Same node idea, different rules for adding and removing.
+- Why you save the node in a temp pointer before deleting it. If you delete first, you lose the rest of the list.
+- Inorder traversal prints a BST in sorted order because of how the tree is built, not because anything gets sorted.
+- Splitting code into header (.h) and source (.cpp) files, and compiling multiple files together with g++.
+- Reading compiler errors. A missing `}` error showed me part of my file got cut off.
+- Using Git and GitHub to commit and push a project.
 
 ## Next Steps
 - BST delete and search
